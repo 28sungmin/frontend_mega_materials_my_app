@@ -1,3 +1,14 @@
+[Create React App 시작]
+
+1. nodejs ver_20.12.2 설치 후
+2. [Terminal 또는 VSC Terminal]에서 node --version 입력하여 설치 확인 (npm --version 도 입력 후 확인)
+3. [VSC Terminal] npm install -g npx 입력 후 엔터
+4. [VSC Terminal] npx create-react-app my-app 입력 후 엔터
+
+.gitignore : git(github 또는 gitlab)으로 커밋하지 말아야 할 파일들을 작성함
+
+- .env(환경 설정) : DB 접속 아이디와 패스워드 넣을 수 있음, DataBase의 연동 정보
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
